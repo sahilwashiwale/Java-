@@ -1,0 +1,25 @@
+package Interface;
+
+public class Fourth {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+interface Folder{
+	default void run()
+	{
+		System.out.println("this is run one");
+	}
+}
+interface Files{
+	
+}
+   
+class  Dot implements Folder,Files{
+	
+	
+	
+}

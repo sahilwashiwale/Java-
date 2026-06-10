@@ -1,0 +1,34 @@
+package Interface;
+
+public class Third {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+  interface USS
+  {
+	  int teach();
+  }
+  interface USS2
+  {
+	  int teach(int a);
+  }
+
+  
+  class FSDI implements USS,USS2
+  {
+
+	public int teach()
+	{
+		return 100;
+	}
+	public int teach(int a) {
+		
+		return 100;
+	}
+	  
+  }

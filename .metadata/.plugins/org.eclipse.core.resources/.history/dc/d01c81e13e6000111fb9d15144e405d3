@@ -1,0 +1,23 @@
+package Challenges;
+
+public class First {
+
+	public static void main(String[] args) {
+		
+		Sahil s = new Sahil();
+		System.out.println(s.name="helo");
+		System.out.println(Sahil.name);
+	
+	}
+
+}
+
+       class Sahil
+       {
+    	   static String name="sahil";
+    	    
+    	   public static void ride()
+    	   {
+    		   System.out.println("brummmmmmmmm");
+    	   }
+       }

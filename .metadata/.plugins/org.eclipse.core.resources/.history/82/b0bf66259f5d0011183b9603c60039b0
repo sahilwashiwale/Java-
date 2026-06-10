@@ -1,0 +1,29 @@
+package Interface;
+
+public class First {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
+
+    interface I_car
+    {
+    	void starts();
+    	void stops();
+    }
+    
+    class Jaguar implements I_car 
+    {
+    	public abstract void starts()
+    	{
+    		System.out.println("start please");
+    	}
+    	
+    	public abstract void stops()
+    	{
+    		
+    	}
+    }

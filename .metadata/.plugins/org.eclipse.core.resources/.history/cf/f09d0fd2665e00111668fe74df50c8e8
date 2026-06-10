@@ -1,0 +1,34 @@
+package Interface;
+
+public class Third {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+  interface USS
+  {
+	  int teach();
+  }
+  interface USS2
+  {
+	  int teach(int a);
+  }
+
+  
+  class FSD implements USS,USS2
+  {
+
+	public int Teach()
+	{
+		return 100;
+	}
+	public int teach(int a) {
+		// TODO Auto-generated method stub
+		return 100;
+	}
+	  
+  }

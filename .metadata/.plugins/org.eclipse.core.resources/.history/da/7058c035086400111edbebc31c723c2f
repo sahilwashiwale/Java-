@@ -1,0 +1,11 @@
+package Challenges;
+
+public class Third {
+
+	public void main(String[] args) {
+		
+		System.out.println("welcome to java");
+
+	}
+
+}

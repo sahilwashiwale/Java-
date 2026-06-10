@@ -1,0 +1,44 @@
+package Inheritance;
+
+public class SingleLevel2 {
+
+	public static void main(String[] args) {
+
+		Child c = new Child();
+		c.exercise();
+		c.setmoney(2000);
+        System.out.println(c.getmoney());
+		System.out.println(c.surname());
+		System.out.println(c.salary());	
+	}
+
+}
+class Parent{
+	int rupay;
+	public void exercise()
+	{
+		System.out.println("Do exercise daily");
+	}
+	public void setmoney(int rupay2)
+	{
+		if(rupay>1000)
+		{
+			this.rupay=rupay2;
+		}
+	}
+	public int getmoney()
+	{
+		return this.rupay;
+	}
+	public String surname()
+	{
+		return "Washiwale";
+	}
+	public double salary()
+	{
+		return 30000.50;
+	}
+}
+class Child extends Parent{
+	
+}

@@ -1,0 +1,20 @@
+package Challenges;
+
+public class First {
+
+	public static void main(String[] args) {
+		
+	
+	}
+
+}
+
+       class Sahil
+       {
+    	   static String name="sahil";
+    	    
+    	   public static void ride()
+    	   {
+    		   System.out.println("brummmmmmmmm");
+    	   }
+       }

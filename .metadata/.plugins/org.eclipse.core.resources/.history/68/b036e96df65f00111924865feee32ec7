@@ -1,0 +1,39 @@
+package Interface;
+
+public class Third {
+
+	public static void main(String[] args) {
+		
+      FSDI f = new FSDI();
+      f.teach();
+	}
+
+}
+
+  interface USS
+  {
+	 void teach();
+  }
+  interface USS2
+  {
+	 default void teach()
+	 {
+		 System.out.println("Hellooo broooo");
+	 }
+  }
+
+  
+  class FSDI implements USS,USS2
+  {
+@Override
+
+	public void teach()
+	{
+		System.out.println("hiiii");
+		//return 100;
+		
+	}
+	
+	}
+	  
+  

@@ -1,0 +1,26 @@
+package Abstraction;
+
+public class Second {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Lenovo l = new Lenovo();
+		System.out.println(l.off());
+		
+	}
+
+}
+
+     abstract class Laptop
+     {
+    	 public abstract int off();
+     }
+     
+     class Lenovo extends Laptop
+     {
+    	 public int off()
+    	 {
+    		 return 100;
+    	 }
+     }

@@ -1,0 +1,25 @@
+package Challenges;
+
+public class Second {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}
+
+ class Folder{
+	 
+	public static void run()
+	{
+		System.out.println("open folder");
+	}
+ }
+ 
+   class files extends Folder
+   {
+	   public static void run()
+		{
+			System.out.println("open folder");
+		}  
+   }

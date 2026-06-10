@@ -1,0 +1,21 @@
+package Abstraction;
+
+public class Third {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+    class Tv
+    {
+    	void main()
+    	{
+    		System.out.println("this is default method");
+    	}
+    }
+    class Sansui extends Tv
+    {
+    	
+    }

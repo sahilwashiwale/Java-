@@ -1,0 +1,15 @@
+package Basic;
+
+public class Second {
+
+	public static void main(String[] args) {
+		
+		String s1 = new String("abc");//str obj
+		String s2 = new String("abc");
+		String s3 = "abc";//str literal
+		String s4 = "abc";
+
+		System.out.println(s3==s4);// true bcoz it store in scp and pointed to same reference
+	}
+
+}

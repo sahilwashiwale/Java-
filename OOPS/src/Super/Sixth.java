@@ -1,0 +1,38 @@
+package Super;
+
+public class Sixth {
+
+	public static void main(String[] args) {
+		
+		Lenovo l = new Lenovo();
+		l.off();
+
+	}
+}
+
+   class Laptop{
+	   
+	   String name="vijay sales";
+	   public Laptop(int a)
+	   {
+		   System.out.println("Laptop constructor"+a);
+	   }
+	   
+	   public void on() {
+		   System.out.println("turn on laptop");
+	   }
+   }
+   
+   class Lenovo extends Laptop
+   {
+	   public Lenovo()
+	   {
+		   super(10);
+		   System.out.println("Lenovo Constructor");
+	   }
+	   
+	   public void off()
+	   {
+		   System.out.println("turn off laptop");
+	   }
+   }

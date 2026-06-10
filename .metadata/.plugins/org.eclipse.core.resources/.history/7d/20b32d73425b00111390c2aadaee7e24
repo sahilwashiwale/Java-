@@ -1,0 +1,22 @@
+package Abstraction;
+
+public class First {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+      abstract class Teacher
+      {
+    	  public abstract void study();
+      }
+
+      class Sahil extends Teacher
+      {
+    	  public void study()
+    	  {
+    		  System.out.println("do study brooo");
+    	  }
+      }

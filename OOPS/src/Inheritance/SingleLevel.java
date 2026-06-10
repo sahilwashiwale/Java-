@@ -1,0 +1,25 @@
+package Inheritance;
+
+public class SingleLevel {
+
+	public static void main(String[] args) {
+		
+		Two two = new Two();
+		two.run();
+		two.name="sahil";
+		System.out.println(two.name);
+				
+	}
+
+}
+class One{
+	String name;
+	
+	public void run()
+	{
+		System.out.println("Runnnnnnn");
+	}
+}
+class Two extends One{
+	
+}

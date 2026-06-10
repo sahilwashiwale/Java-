@@ -1,0 +1,31 @@
+package Challenges;
+
+public class First {
+
+	public static void main(String[] args) {
+		 
+	
+	}
+
+}
+
+       class Sahil
+       {
+    	   static String name="sahil";
+    	    
+    	 void ride()
+    	   {
+    		   System.out.println("brummmmmmmmm");
+    	   }
+    	 
+    	 void eat()
+    	 {
+    		 System.out.println("eatttttttttttt");
+    	 }
+    	 void smoke()
+    	 {
+    		 System.out.println("use vapeeeeeeeeeee");
+    	 }
+       }
+       
+       

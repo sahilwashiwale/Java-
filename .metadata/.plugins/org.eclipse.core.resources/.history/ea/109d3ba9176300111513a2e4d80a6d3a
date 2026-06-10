@@ -1,0 +1,22 @@
+package Challenges;
+
+public class Second {
+
+	public static void main(String[] args) {
+		
+		Folder f = new Folder();
+		Folder f2 = new Folder();
+		System.out.println(f2.name);
+	}
+}
+
+ class Folder{
+	 
+	 static String name;
+	 
+	static
+	 {
+		name="sahil";
+		System.out.println(name);
+	 }
+ }

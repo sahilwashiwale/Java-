@@ -1,0 +1,25 @@
+
+public class First {
+
+	public static void main(String[] args) {
+		
+		Animal a = new Animal("eating");
+		System.out.println(a.Getval());
+
+	}
+
+}
+
+  class Animal
+  {
+	  String msg;
+	  public Animal(String message)
+	  {
+		  this.msg=message;
+	  }
+	  
+	  public String Getval()
+	  {
+		  return this.msg;
+	  }
+  }

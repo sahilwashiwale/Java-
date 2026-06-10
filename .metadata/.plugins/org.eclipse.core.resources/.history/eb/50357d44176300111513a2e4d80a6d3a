@@ -1,0 +1,18 @@
+package Challenges;
+
+public class Second {
+
+	public static void main(String[] args) {
+		
+	}
+}
+
+ class First{
+	 
+	 static String name="sahil";
+	 
+	 public void run()
+	 {
+		 System.out.println("my name is "+name);
+	 }
+ }

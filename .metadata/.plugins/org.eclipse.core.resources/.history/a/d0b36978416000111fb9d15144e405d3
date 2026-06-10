@@ -1,0 +1,19 @@
+package Challenges;
+
+public class First {
+
+	public static void main(String[] args) {
+		
+		 int ank=321;
+		 
+		 String rev = new StringBuilder(String.valueOf(ank)).reverse().toString();
+		 System.out.println(rev);
+         System.out.println(rev.getClass());
+         int reverse = rev;
+         
+	}
+
+}
+
+       
+       

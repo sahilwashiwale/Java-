@@ -1,0 +1,29 @@
+package Challenges;
+
+public class First {
+
+	public static void main(String[] args) {
+		 Sahil s = new Sai();
+		 s.ride();
+	
+	}
+
+}
+
+       class Sahil
+       {
+    	   static String name="sahil";
+    	    
+    	   public static void ride()
+    	   {
+    		   System.out.println("brummmmmmmmm");
+    	   }
+       }
+       
+       class Sai extends Sahil
+       {
+    	   public static void ride()
+    	   {
+    		   System.out.println("brummmmmmmmm brummmmmm");
+    	   } 
+       }

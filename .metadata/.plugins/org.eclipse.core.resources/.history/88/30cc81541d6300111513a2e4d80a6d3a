@@ -1,0 +1,22 @@
+package Challenges;
+
+public class Second {
+
+	public static void main(String[] args) {
+		
+		Folder f = new Folder();
+		
+	}
+}
+
+ class Folder{
+	 
+	static
+	{
+		System.out.println("this is static block");
+		name="sahil";
+	}
+ }
+ 
+
+

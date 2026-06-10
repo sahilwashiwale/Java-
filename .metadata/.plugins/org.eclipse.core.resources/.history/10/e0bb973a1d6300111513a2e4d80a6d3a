@@ -1,0 +1,21 @@
+package Challenges;
+
+public class Second {
+
+	public static void main(String[] args) {
+		
+		Folder f = new Files();
+		
+	}
+}
+
+ class Folder{
+	 
+	static
+	{
+		System.out.println("this is static block");
+	}
+ }
+ 
+
+

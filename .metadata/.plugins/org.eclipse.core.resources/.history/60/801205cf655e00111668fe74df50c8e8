@@ -1,0 +1,28 @@
+package Interface;
+
+public class Second {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+ interface I_r{
+	 void start();
+ }
+
+ interface I_r2{
+	 void start();
+ }
+ 
+ class Hyva implements I_r,I_r2
+ {
+
+
+	public void start() {
+		
+		System.out.println("hello ");
+	}
+	 
+ }
